@@ -1,0 +1,46 @@
+import requests
+import time
+import pandas as pd
+
+artists = []
+tracks = []
+albums = []
+
+nums = range(10)
+for num in nums:
+    url = "https://spotify23.p.rapidapi.com/search/"
+
+    querystring = {
+        "q":"maroon 5",
+        "type":"multi",
+        "limit":"10",
+        "numberOfTopResults":"5"
+        }
+
+
+    headers = {
+        "X-RapidAPI-Key": "57de1fa66emsh27fc48defc01930p1a26b7jsn28b97b44ed4f",
+        "X-RapidAPI-Host": "spotify23.p.rapidapi.com"
+    }
+
+    response = requests.request("GET", url, headers=headers, params=querystring)
+    result = response.json()
+
+    tagresult = result['tracks']['items'][num]['data']
+
+    artists.append(tagresult['artists']['items'][0]['profile']['name'])
+    time.sleep(2)
+    albums.append(tagresult['albumOfTrack']['name'])
+    time.sleep(2)
+    tracks.append(tagresult['name'])
+    time.sleep(2)
+
+
+df = pd.DataFrame({
+    "artist": artists,
+    "album": albums,
+    "track": tracks
+})
+#print(result['artists']['items'][0]['data']['profile']['name'])
+#print(result['tracks']['items'][0]['data']['artists']['items'][0]['profile']['name'])
+#print(result['tracks']['items'][0]['data']['name'])
