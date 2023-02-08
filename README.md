@@ -1,5 +1,5 @@
 # bootcamp_projects
-learn data science bootcamp with `datarockie`
+learn data science bootcamp with <a href="https://datarockie.com/" rel="nofollow">DataRockie</a>
 
 We learn 10 sprints during 4 month grogram
 
