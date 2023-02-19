@@ -30,4 +30,10 @@ We learn 10 sprints during 4 month grogram.There're project/homework.They've don
 ## Dashboard
 <a href="https://github.com/chikiplayer/bootcamp_projects/tree/main/dashboard">readme.md</a>
 - Using looker studio,public tableau, and powerBI for create dashboard
+- California Wine Production Report - Dashboard showing the data from <a href="https://www.kaggle.com/datasets/jarredpriester/california-wine-production-19802020">California Wine Production 1980-2020</a>
+- Sales Report - Dashboard showing the data from <a href="https://www.kaggle.com/datasets/dsfelix/us-stores-sales
+">US Store Sales</a> 
+<br>
+<b>badge: <a href="https://api.badgr.io/public/assertions/EpCLWvW8SvCCsqk9qlR5uQ">Certified Professional Data Analyst</a></b>
 
+<blockquote class="badgr-badge" style="font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;"><a href="https://api.badgr.io/public/assertions/EpCLWvW8SvCCsqk9qlR5uQ"><img width="120px" height="120px" src="https://api.badgr.io/public/assertions/EpCLWvW8SvCCsqk9qlR5uQ/image"></a><p class="badgr-badge-name" style="hyphens: auto; overflow-wrap: break-word; word-wrap: break-word; margin: 0; font-size: 16px; font-weight: 600; font-style: normal; font-stretch: normal; line-height: 1.25; letter-spacing: normal; text-align: left; color: #05012c;"></p><p class="badgr-badge-date" style="margin: 0; font-size: 12px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;"><strong style="font-size: 12px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded: </strong>Feb 18, 2023</p><p class="badgr-badge-recipient" style="margin: 0; font-size: 12px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;"><strong style="font-size: 12px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded To: </strong><span style="display: block;"> Warisara Yuwansiri</span></p></blockquote>
